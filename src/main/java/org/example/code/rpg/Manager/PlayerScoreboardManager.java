@@ -39,4 +39,3 @@ public class PlayerScoreboardManager {
         player.setScoreboard(scoreboard);
     }
 }
-

@@ -30,3 +30,7 @@ commands:
   돈:
     description: 현재 잔액을 확인합니다.
     usage: /돈
+
+  도움말:
+    description: MinerSurvival 플러그인의 도움말을 확인합니다.
+    usage: /도움말

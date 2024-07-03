@@ -59,5 +59,4 @@ public class RightClickListener implements Listener {
 
         return job != null && level != null && plugin.getJobConfig().jobBookNameCheck(job);
     }
-
 }
