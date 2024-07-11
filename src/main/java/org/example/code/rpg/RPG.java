@@ -35,7 +35,7 @@ public final class RPG extends JavaPlugin {
         this.jobConfigManager = new JobConfigManager(this);
         getServer().getPluginManager().registerEvents(new PlayerJoinListener(this, playerBossBars), this);
         getServer().getPluginManager().registerEvents(new BlockBreakListener(this, playerO2), this);
-        //getServer().getPluginManager().registerEvents(new PlayerMoveListener(playerBossBars, playerOnGround), this);
+        getServer().getPluginManager().registerEvents(new PlayerAttackedListener(playerO2), this);
         getServer().getPluginManager().registerEvents(new MonsterDamageListener(), this);
         startPlayerCoordinateChecker();
     }
